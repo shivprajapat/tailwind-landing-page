@@ -27,7 +27,7 @@ const Navbar = () => {
           <Button title="Sign Up For Free" />
         </div>
 
-        <div className="md:hidden" onClick={handleClick}>
+        <div className="md:hidden cursor-pointer" onClick={handleClick}>
           <img src={toggle ? iconClose : iconHamburgerMenu} />
         </div>
       </div>

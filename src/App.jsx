@@ -15,7 +15,8 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      {/* <Hero />
+      <Hero />
+      {/* 
       <Companies />
       <Courses />
       <Achievement />
