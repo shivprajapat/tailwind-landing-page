@@ -8,8 +8,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full h-[80px] bg-white border-b">
-      <div className="md:max-w-[1480px] max-w-[600px] mx-auto w-full h-full flex justify-between items-center md:px-0 px-4">
-        <img src={iconLogo} className="h-[25px]" />
+      <div className="md:max-w-[1480px] max-w-[600px] mx-auto w-full h-full flex justify-between items-center px-3.5">
+        <img src={iconLogo} className="lg:h-[25px] h-[20px]" />
         <div className="hidden md:flex items-center ">
           <ul className="flex gap-4">
             {navItems?.map((item, i) => (
