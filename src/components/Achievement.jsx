@@ -46,7 +46,6 @@ const Achievement = () => {
           <div className="grid grid-cols-2 py-2">
             {iconsData.map((item, i) => {
               const { icon, color, title, number } = item;
-              console.log({ color });
               return (
                 <div className="py-6 flex" key={i}>
                   <div className={`p-4 bg-[#${color}] rounded-xl`}>{icon}</div>

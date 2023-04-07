@@ -71,6 +71,9 @@ body {
     background: #20B486;
 }
 
-.slick-slider {
+.course .slick-slider {
     margin:0 -15px;
 }
+.category-card:hover .arrow-icon{
+    fill: white;
+  }
