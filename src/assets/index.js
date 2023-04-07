@@ -8,6 +8,7 @@ import iconCompany3 from "./company/3.png";
 import iconCompany4 from "./company/4.png";
 
 import imgHero from "./heroImg.png";
+import imgAchievement from "./achievement.png";
 
 export {
   iconHamburgerMenu,
@@ -19,4 +20,5 @@ export {
   iconCompany3,
   iconCompany4,
   imgHero,
+  imgAchievement
 };

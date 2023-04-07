@@ -12,3 +12,65 @@ body {
 .input-box-shadow {
     filter: drop-shadow(-4px -4px 44px rgba(0, 0, 0, 0.08));
 }
+
+.slick-arrow::before {
+    display: none;
+}
+
+.slick-arrow {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index: 9;
+}
+
+.slick-arrow,
+.slick-arrow:hover,
+.slick-arrow:focus {
+    background-color: #fff;
+    box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.25);
+    color: #000000;
+
+}
+
+.slick-arrow svg {
+    margin-inline: auto;
+}
+
+.slick-arrow.slick-prev {
+    left: -8px;
+}
+
+.slick-arrow.slick-next {
+    right: -8px;
+}
+
+.slick-dots {
+    display: flex;
+    column-gap: 10px;
+}
+
+.slick-dots li {
+    background: #CFD3D6;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+.slick-dots li button {
+    width: 100%;
+    height: 100%;
+}
+
+.slick-dots li button::before {
+    display: none;
+}
+
+.slick-dots li.slick-active {
+    background: #20B486;
+}
+
+.slick-slider {
+    margin:0 -15px;
+}
